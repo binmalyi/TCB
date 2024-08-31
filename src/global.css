@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Alpino';
+    src: local("Alpino"),
+        url('/font/Alpino-Variable.woff2') format('woff2');
+    font-weight: 100 900;
+    font-display: swap;
+    font-style: normal;
+}
+
+:root {
+    font-family: Alpino;
+    background-color: rgb(24, 23, 21);
+    color-scheme: dark;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+* {
+    margin: 0;
+}
+
+p {
+    word-wrap: break-word;
+}
