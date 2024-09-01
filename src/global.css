@@ -13,6 +13,9 @@
     color-scheme: dark;
     user-select: none;
     -webkit-user-drag: none;
+
+    --form-shape: 7px;
+    --form-input-shape: calc(var(--form-shape) / 3);
 }
 
 * {

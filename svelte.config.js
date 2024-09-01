@@ -8,7 +8,8 @@ const config = {
 	preprocess: vitePreprocess(),
 	compilerOptions: {
 		hydratable: true,
-		immutable: true
+		immutable: true,
+		css: "external"
 	},
 	kit: {
 		// adapter-auto only supports some environments, see https://kit.svelte.dev/docs/adapter-auto for a list.
