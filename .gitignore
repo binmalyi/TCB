@@ -1,6 +1,4 @@
 node_modules
-/*.mts
-/*.ts
 
 # Output
 .output
@@ -8,6 +6,7 @@ node_modules
 /.svelte-kit
 /build
 /dist
+/test
 
 # OS
 .DS_Store
